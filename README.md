@@ -1,6 +1,6 @@
 # BOP-updates
 This is the config for automated updates on bytesofprogress.io
-It will fetch the updates from https://github.com/5calV/BytesOfProgress automatically at midnight (MEZ).
+It will fetch the updates from https://github.com/5calV/BytesOfProgress automatically at midnight (CET, german time).
 
 ## How to use
 ### Step 1
