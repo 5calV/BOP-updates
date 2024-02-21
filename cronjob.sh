@@ -1,0 +1,1 @@
+0 0 * * * /bin/bash /var/www/merge.sh
