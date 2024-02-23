@@ -3,11 +3,11 @@ echo "Cloning BytesOfProgress repository from GitHub..."
 git clone https://github.com/5calV/BytesOfProgress
 
 echo "Replacing the old website files..."
-rm -rf html
+rm -rf /var/www/html
 
-mv BytesOfProgress/html /var/www/
+mv /var/www/BytesOfProgress/html /var/www/
 
 echo "Removing repository"
-rm -rf BytesOfProgress
+rm -rf /var/www/BytesOfProgress
 
 echo "DONE! Changes should be applied now!"
